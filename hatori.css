@@ -1,0 +1,308 @@
+body {
+    background: linear-gradient(0deg, #98C3FA, #BFF5DB);
+    background-repeat: no-repeat;
+    margin-top: -3rem;
+}
+
+.container {
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    height: 300px;
+}
+
+.blue-bg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.behind-face {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin: -1.4rem;
+    width: 150px;
+    z-index: -1;
+}
+
+.behind-face-1 {
+    height: 130px;
+    width: 135px;
+    border-radius: 40px;
+    background-color: #030fffe7;
+    display: inline-block;
+}
+
+.down {
+    height: 152px;
+    width: 115px;
+    border-radius: 40px;
+    background-color: #030fffe7;
+    margin-left: 1.1rem;
+    margin-top: -1.3rem;
+}
+
+.body {
+    display: absolute;
+    width: 109px;
+    height: 78px;
+    margin-left: 4px;
+    margin-top: -27px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+    z-index: 5;
+}
+
+.hands {
+    position: absolute;
+    height: 30px;
+    width: 150px;
+}
+
+.face {
+    height: 120px;
+    width: 110px;
+    background-color: #f6d5a2;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 5rem;
+    justify-content: space-between;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 23px;
+
+}
+
+.eye-1 {
+    transform: rotate(-4deg);
+}
+
+.eye-2 {
+    transform: rotate(2deg);
+}
+
+.dots {
+    height: 15px;
+    background-color: black;
+    width: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+
+.face-image {
+    height: 25px;
+    width: 25px;
+
+}
+
+.face-image-1 {
+    transform: scaleX(-1) rotate(115deg);
+}
+
+.face-image-2 {
+    transform: scaleX(-1) rotate(46deg);
+
+}
+
+.half-circle {
+    height: 50px;
+    width: 110px;
+    margin-top: 0.3rem;
+    border-radius: 0 0 150px 150px;
+    background-color: #f6d5a2;
+    justify-content: center;
+    align-items: center;
+}
+
+.nose {
+    height: 11px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+.smile {
+    height: 25px;
+    width: 55px;
+    background-color: rgb(184, 29, 29);
+    margin-left: 1.799rem;
+    border-radius: 0 0 150px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smile-2 {
+    height: 10px;
+    width: 30px;
+    background-color: rgb(240, 32, 255);
+    border-radius: 150px 150px 0px 0px;
+    margin-top: 11px;
+}
+.hands {
+    margin-top: -10px;
+    height: 50px;
+    width: 154px;
+    display: flex;
+    justify-content: space-between;
+}
+.hand{
+    height: 55px;
+    width: 20px;
+    border-radius: 24px;
+    background-color: #030fffe7;
+    z-index: -23;
+}
+
+.l-hand {
+    margin-top: 4px;
+    margin-left: 4px;
+    transform: rotate(38deg);
+}
+.r-hand {
+    transform: rotate(-38deg);
+    margin: 2px 6px 0px 0px;
+}
+.hand-white-r {
+    height: 12px;
+    width: 26px;
+    background-color: white;
+    z-index: 23;
+    position: absolute;
+    margin: 41px 0px 0px -8px;
+    border: 1px solid black;
+    transform: rotate(35deg);
+}
+.hand-white-l {
+    height: 12px;
+    width: 26px;
+    background-color: white;
+    z-index: 23;
+    position: absolute;
+    margin: 43px 0px 0px -2px;
+    border: 1px solid black;
+    transform: rotate(-35deg);
+}
+.l-cloth {
+    height: 25px;
+    width: 15px;
+    margin: 13px 0px 0px 8px;
+    transform: roatate(34deg);
+    background-image: url(yellow-shirt.jpeg);
+    transform: rotate(-8deg);
+}
+.r-cloth {
+    height: 25px;
+    width: 15px;
+    margin: 13px 0px 0px 6px;
+    transform: roatate(40deg);
+    background-image: url(yellow-shirt.jpeg);
+    transform: rotate(3deg);
+
+}
+.hand-image-l {
+    height: 35px;
+    width: 46px;
+    transform: scaleX(-1) rotate(168deg);
+    margin: 23px 0px 0px -15px;
+
+}
+.hand-image-r {
+    height: 35px;
+    width: 46px;
+    transform: rotate(168deg);
+    margin: 23px 0px 0px -15px;
+
+}
+.ribbon-white {
+    height: 4px;
+    width: 149px;
+    background-color: azure;
+    transform: rotate(46deg);
+    border: 2px solid;
+    margin: -4px 0px 0px -21px;
+
+}
+.ribbon-red {
+    height: 4px;
+    width: 116px;
+    background-color: rgb(184, 29, 29);
+
+}
+.ribbon-image {
+    height: 25px;
+    width: 30px;
+    z-index: 22;
+    margin-top: -10px;
+    transform: rotate(-41deg);
+
+}
+.sword {
+    position: absolute;
+    height: 15px;
+    width: 55px;
+    background-color: #0077ff;
+    transform: rotate(42deg);
+    margin: -16px 0px 0px -26px;
+    z-index: -23;
+    border-radius: 23px;
+    display: flex;
+}
+.triangle {
+
+
+    width: 13px;
+    height: 13px;
+    background: #ffff4e;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-94deg);
+    margin: 2px 0px 0px 5px;
+
+}
+.leg {
+
+    margin-top: 3rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between
+}
+.leg-l {
+    height: 4rem;
+    width: 22px;
+    background-color: #030fffe7;
+    border-radius: 25px;
+    margin-left: 1.1rem;
+}
+.leg-r {
+    height: 4rem;
+    width: 22px;
+    background-color: #030fffe7;
+    border-radius: 25px;
+    margin-right: 1.1rem;
+}
